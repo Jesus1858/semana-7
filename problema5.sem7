@@ -1,0 +1,18 @@
+#un pequeño ejemplo para los datos de una alumno y y saber a que salon pertenece segun su puntaje
+print("Datos del alumno:")
+edad = int(input("Edad:"))
+if edad >=18:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+puntaje = float(input("Puntaje obtenido en el examen: "))
+if puntaje<=1000 and puntaje>750:
+    print("Eres de la seccion A")
+if puntaje<=750 and puntaje>350:
+    print("Eres de la seecion B")
+if puntaje<=350 and puntaje>0:
+    print("Eres de la seccion C")
+
+    #else: acción (si la condición entre paréntesis es falsa se ejecutara la acción o acciones, porque, puede estar conformado por varias lineas)41
+    #if:La condición se interpreta como una expresión booleana que se evalúa como verdadera o falsa.
+    #Cuando se convierten flotantes en enteros con la función int() , Python corta el decimal y los números restantes de un flotante para crear un entero.
